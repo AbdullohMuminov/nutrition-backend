@@ -1,5 +1,3 @@
-server:
-  port: 8080
 spring:
   datasource:
     url: jdbc:postgresql://roundhouse.proxy.rlwy.net:17521/railway
