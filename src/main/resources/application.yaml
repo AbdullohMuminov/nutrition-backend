@@ -1,0 +1,50 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://roundhouse.proxy.rlwy.net:17521/railway
+    username: postgres
+    password: BSscXBIepwNhAqlRwPTnggujVRQajbAJ
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+#    username: mamad1yevvvv@gmail.com
+#    password: hfln ztpe iady idbq
+
+#    ikromova702@gmail.com
+#    xcbk vbry fnsw wthr
+
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    default-encoding: UTF-8
+    username: ikromova702@gmail.com
+    password: xcbk vbry fnsw wthr
+
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+    hibernate:
+      ddl-auto: update
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+
+  data:
+    redis:
+      host: roundhouse.proxy.rlwy.net
+      port: 56958
+      password: SNvEsJbjELtBFILNjWkuqpTWDgofcpnm
+
+security:
+    jwt:
+      key: 1PPBmcdA8YCBg1LQCPz8zuRKw6fmZVJfxEwcsT0SvfX6LWK31QTJrrBTh1NEFNQz
+#logging:
+#  level:
+#    web: debug
